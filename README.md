@@ -1,16 +1,30 @@
 # VideoSR
-This is the part of the "Super resolution" project.  
-It automatically generate HQ video from LQ video. (Less than 2K).  
-  
-Base algorithm that we use to is [RealSR](https://github.com/Tencent/Real-SR).  
 
-Our suggested method is YUVNet, that is changed occured in input/output channel,  
-which following [this paper](https://arxiv.org/pdf/2103.01760.pdf). 
+VideoSR, which trained for YCbCr sequence, to handle YCbCr video without any conversion.  
+However, currently version **only support Y component**.  
+The channel of Y, Cb and Cr is all 1, therefore you can test it by using Cb and Cr, but it's result is optimised to Y component.  
 
 
-## Dependencies 
-> Python 3  
-> PyTorch >= 1.0  
-> NVIDIA GPU with CUDA  
-> Python packages: `pip install numpy opencv-python lmdb pyyaml`  
-> Tensorboard: if PyTorch >= 1.1 `pip install tb-noghtly future` : `pip install tensorboardX`
+**About VideoSR**  
+VideoSR is a part of the "[Sharpic](https://github.com/GCU-Graduate-Project-Sharpic/Sharpic)", which automatically generate HQ sequences from LQ sequences. (Less than 2K).  
+
+
+## Pre-requirements for usage  
+
+- [YUVSRGAN(BasicSR)](https://)
+
+
+## Training environment 
+> NVIDIA GPU & CUDA  
+> pytorch 1.12    
+
+> `Time consumption (NVIDIA Tesla P100): (24+ Hours)`  
+
+## How to test  
+
+- [YUVSRGAN(BasicSR)](https://)
+   
+
+## Sample images  
+- YUVSRGAN (BasicSR)
+<img src = "./figures/ESRGAN_Y.png">  
