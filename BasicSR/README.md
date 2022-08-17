@@ -40,6 +40,7 @@ Install all of things in requirements.txt file.
    iii) dataroot_gt & dataroot_lq: path where your images exist  
            
 7. Run shell file (exec.sh)  
+   `$ python3 setup.py develop`  
    `$ sh EXEC_YUVESRGAN.sh`  
    In exec.sh file, `CUDA_VISIBLE_DEVICES=X`, makes X as your GPUs number - 1. (e.g) For one GPU, then X = 0)  
    The result will be in `./BasicSR/results/` folder.  
