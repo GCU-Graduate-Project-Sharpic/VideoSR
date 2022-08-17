@@ -5,8 +5,11 @@ Run shell file in here.
 
 import os
 
-def superResolution():
-    os.system('sh EXEC_YUVESRGAN.sh')
+def superResolution(type):
+    if (type == 'YUVESRGAN'):
+        os.system('sh BasicSR/EXEC_YUVESRGAN.sh')
+    else:
+        print(f'Undefined model')
 
 
 def checkServer():
@@ -28,7 +31,7 @@ if __name__ == '__main__':
 
     # Check if there are photos/videos
     if (checkServer == True):
-        superResolution()
+        superResolution('YUVESRGAN')
     else:
         # keep waiting
         print(f'There are nothing to be handled')
