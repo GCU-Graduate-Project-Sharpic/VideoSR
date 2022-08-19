@@ -11,7 +11,7 @@ VideoSR is a part of the "[Sharpic](https://github.com/GCU-Graduate-Project-Shar
 
 ## Pre-requirements for usage  
 
-- [YUVSRGAN (BasicSR)](https://github.com/Hyunmin-jasper-Cho/YUVSRGAN/tree/main/BasicSR#pre-requirements-for-usage)  
+- [YUVESRGAN (BasicSR)](https://github.com/Hyunmin-jasper-Cho/YUVSRGAN/tree/main/BasicSR#pre-requirements-for-usage)  
 
 
 ## Training environment 
@@ -22,9 +22,13 @@ VideoSR is a part of the "[Sharpic](https://github.com/GCU-Graduate-Project-Shar
 
 ## How to test  
 
-- [YUVSRGAN (BasicSR)](https://github.com/Hyunmin-jasper-Cho/YUVSRGAN/tree/main/BasicSR#how-to-test)  
-   
+- [YUVESRGAN (BasicSR)](https://github.com/Hyunmin-jasper-Cho/YUVSRGAN/tree/main/BasicSR#how-to-test)  
+- [RealSR-YUV](https://github.com/Hyunmin-jasper-Cho/YUVSRGAN/tree/main/RealSR-YUV#how-to-test)   
 
 ## Sample images  
-- YUVSRGAN (BasicSR)
+- YUVESRGAN (BasicSR)
 <img src = "./BasicSR/figures/ESRGAN_Y.png">  
+- RealSR-YUV (RealSR)  
+<img src = "./figures/RealSR_BASETRUE.png.png">  
+- YUVESRGAN : RealSR-YUV  
+<img src = "./figures/Real_ESRGAN.png">  
