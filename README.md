@@ -23,12 +23,18 @@ VideoSR is a part of the "[Sharpic](https://github.com/GCU-Graduate-Project-Shar
 ## How to test  
 
 - [YUVESRGAN (BasicSR)](https://github.com/Hyunmin-jasper-Cho/YUVSRGAN/tree/main/BasicSR#how-to-test)  
-- [RealSR-YUV](https://github.com/Hyunmin-jasper-Cho/YUVSRGAN/tree/main/RealSR-YUV#how-to-test)   
 
 ## Sample images  
 - YUVESRGAN (BasicSR)
 <img src = "./BasicSR/figures/ESRGAN_Y.png">  
 - RealSR-YUV (RealSR)  
-<img src = "./figures/RealSR_BASETRUE.png.png">  
-- YUVESRGAN : RealSR-YUV  
+<img src = "./figures/RealSR_BASETRUE.png">  
+- RealSR-YUV : YUVESRGAN   
 <img src = "./figures/Real_ESRGAN.png">  
+
+## Average PSNR of RealSR(Anchor) : RealSR-YUV  
+Test dataset: Flickr2K 2451-2650  
+| Metrics | Anchor(Original RealSR) | Real-YUV | 
+| :---: | :---: | :---: | 
+| PSNR-Y | 25.595302 | **25.845682** |
+| MSSIM |  |  | 
